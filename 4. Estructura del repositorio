@@ -1,0 +1,10 @@
+votaciones-dip-sen/
+├── data/
+│   ├── diputados.csv        # Datos de diputados y su voto por provincia
+│   └── senadores.csv        # Datos de senadores y su voto por provincia
+├── scripts/
+│   └── analizar_coincidencia.py  # Script de Python que genera el análisis y gráficos
+├── outputs/
+│   ├── coincidence_province.csv  # Resultado de coincidencia por provincia
+│   └── heatmap.png               # Mapa de calor de coincidencias
+└── README.md                     # Documentación del proyecto
